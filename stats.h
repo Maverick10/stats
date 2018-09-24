@@ -24,18 +24,98 @@
 
 /* Add Your Declarations and Function Comments here */ 
 
+void print_statistics(unsigned char* data, int size);
+
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief prints maximum, minimum, mean and median of data
  *
- * <Add Extended Description Here>
+ * This function calls other functions that calculates the statistics needed.
+ * Namely: maximum, minimum, mean and median of the array. Function also prints
+ * out the statistics.
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return void
  */
 
+void print_array(unsigned char* data, int size);
+
+/**
+ * @brief prints the array data
+ *
+ * This function prints the elements of the array data separated by spaces.
+ *
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return void
+ */
+
+unsigned char find_median(unsigned char* data, int size);
+
+/**
+ * @brief finds median of array data
+ *
+ * This function finds the median of the array, where the median is defined as
+ * the element with index floor(size/2).
+ *
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return unsigned char, median of array
+ */
+
+double find_mean(unsigned char* data, int size);
+
+/**
+ * @brief finds mean of array
+ *
+ * This function calculates and returns the mean (average) of the array.
+ *
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return double, the average of array
+ */
+
+unsigned char find_maximum(unsigned char* data, int size);
+
+/**
+ * @brief finds the maximum element of array
+ *
+ * This function finds and returns the maximum element of array
+ *
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return unsigned char, maximum of array
+ */
+
+unsigned char find_minimum(unsigned char* data, int size);
+
+/**
+ * @brief finds the minimum element of array
+ *
+ * This function finds and returns the minimm element of array
+ *
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return unsigned char, minimum of array
+ */
+
+void sort_array(unsigned char* data, int size);
+
+/**
+ * @brief sorts the array non-increasingly
+ *
+ * This function sorts the array in non-increasing order, it uses merge sort.
+ *
+ * @param data: input array of data
+ * @param size: number of elements in data
+ * 
+ * @return void.
+ */
 
 #endif /* __STATS_H__ */

@@ -41,4 +41,32 @@ void main() {
 
 }
 
+void print_statistics(unsigned char* data, int size){
+
+}
+
+void print_array(unsigned char* data, int size){
+
+}
+
+unsigned char find_median(unsigned char* data, int size){
+
+}
+
+double find_mean(unsigned char* data, int size){
+
+}
+
+unsigned char find_maximum(unsigned char* data, int size){
+
+}
+
+unsigned char find_minimum(unsigned char* data, int size){
+
+}
+
+void sort_array(unsigned char* data, int size){
+
+}
+
 /* Add other Implementation File Code Here */
