@@ -5,4 +5,3 @@ statistical analytics on it, namely: minimum, maximum, mean and average of
 the array. Also, the application sorts the array non-increasingly using 
 merge sort algorithm.
 # stats
-# stats
